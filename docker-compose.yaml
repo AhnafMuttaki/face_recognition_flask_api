@@ -6,3 +6,10 @@ services:
       context: ./
     ports:
       - 5001:5001
+
+  fr-mysql:
+    container_name: fr-mysql
+    build:
+      context: .
+      dockerfile: Dockerfile-mysql
+    restart: always
