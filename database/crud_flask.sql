@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `api_log`(
 -- INSERT INTO `phone_book` (`id`, `name`, `phone`, `address`) VALUES
 -- (16, 'Muhammad Hanif', '085733492411', 'Lamongan');
 
-INSERT INTO `token_table` (`user_name`, `token`) VALUES ('admin', 'E9Afp19WX0LyWvftQZJT');
+INSERT INTO `token_table` (`user_name`, `token`) VALUES ('admin', 'YOUR_ADMIN_USER_TOKEN');
 
 --
 -- Indexes for dumped tables

@@ -12,4 +12,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-mysql
+    ports:
+        - 3309:3306
     restart: always
